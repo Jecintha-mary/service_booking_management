@@ -5,6 +5,23 @@ app_description = "Alfastack Assignment"
 app_email = "jecinthamary35@gmail.com"
 app_license = "mit"
 
+
+fixtures = [
+    {
+        "dt": "Workflow",
+        "filters": [["name", "in", ["Service Booking"]]]
+    },
+    {
+        "dt": "Email Template",
+        "filters": [["name", "in", ["Service Booking"]]]
+    },
+     {
+        "dt": "Workspace",
+        "filters": [["name", "in", ["Service Booking Management"]]]
+    }
+]
+
+
 # Apps
 # ------------------
 
