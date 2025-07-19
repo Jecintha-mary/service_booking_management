@@ -1,0 +1,12 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Email Template",
+  "modified": "2025-07-19 14:57:39.223727",
+  "name": "Service Booking",
+  "response": "<div class=\"ql-editor read-mode\"><p>Dear {{ customer_name }},</p><p><br></p><p>Thank you for booking a {{ service_type }} service with us!</p><p><br></p><p>📅 Date: {{ booking_date }}</p><p>🕒 Time: {{ booking_time }}</p><p><br></p><p>We look forward to seeing you!</p><p><br></p><p>Best regards, &nbsp;</p><p>Your Spa Team</p></div>",
+  "response_html": null,
+  "subject": "Spa Booking Confirmation",
+  "use_html": 0
+ }
+]
