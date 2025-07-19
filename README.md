@@ -11,22 +11,20 @@ cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app service_booking_management
 ```
+Workspace:
+from Service Booking Management workspace from the home page find 
+i.DocType
+  1.Customer
+  2.Service Booking
+  
+ii.Report
+  1.Service Booking
 
-### Contributing
-
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
-
-```bash
-cd apps/service_booking_management
-pre-commit install
-```
-
-Pre-commit is configured to use the following tools for checking and formatting your code:
-
-- ruff
-- eslint
-- prettier
-- pyupgrade
+System Info:
+○ OS - Ubuntu 22.04
+○ Python version - 3.10.12
+○ ERPNext/Frappe version - 15
+○ Tools or editors used (VS Code,Postman)
 
 ### License
 
